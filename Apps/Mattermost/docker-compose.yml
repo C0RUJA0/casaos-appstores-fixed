@@ -63,9 +63,6 @@ x-casaos:
   developer: Mattermost
   category: Communication
   icon: https://cdn.jsdelivr.net/gh/roqueribeiro/roqueos-containers-list@main/Apps/Mattermost/icon.png
-  thumbnail: https://cdn.jsdelivr.net/gh/roqueribeiro/roqueos-containers-list@main/Apps/Mattermost/thumbnail.png
-  screenshot_link:
-    - https://cdn.jsdelivr.net/gh/roqueribeiro/roqueos-containers-list@main/Apps/Mattermost/screenshot-1.png
   title:
     en_us: Mattermost
     pt_br: Mattermost
