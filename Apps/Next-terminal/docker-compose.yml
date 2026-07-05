@@ -39,7 +39,6 @@ services:
       - type: bind
         source: /etc/localtime
         target: /etc/localtime
-      - type: bind
         source: /tmp/casaos-compose-app-3976183864/data
         target: /usr/local/next-terminal/data
     container_name: next-terminal

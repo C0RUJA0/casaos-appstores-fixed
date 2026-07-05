@@ -1,4 +1,4 @@
-name: reverse
+name: reverse-shell-generator
 services:
   reverse:
     image: vuldocker/reverse_shell_generator:1.0.0
