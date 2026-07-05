@@ -1,4 +1,4 @@
-name: linuxserver-projectsend
+name: projectsend
 services:
   app:
     image: linuxserver/projectsend:version-r2029
@@ -26,7 +26,6 @@ services:
       - type: bind
         source: /DATA/AppData/projectsend/config
         target: /config
-      - type: bind
         source: /DATA/AppData/projectsend/data
         target: /data
 x-casaos:

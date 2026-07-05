@@ -1,4 +1,4 @@
-name: linuxserver-ddclient
+name: ddclient
 services:
   app:
     image: linuxserver/ddclient:4.0.0

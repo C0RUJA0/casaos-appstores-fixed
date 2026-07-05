@@ -1,4 +1,4 @@
-name: linuxserver-rpcs3
+name: rpcs3
 services:
   app:
     image: linuxserver/rpcs3:0.0.37

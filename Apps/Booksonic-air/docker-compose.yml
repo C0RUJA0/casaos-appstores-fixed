@@ -1,4 +1,4 @@
-name: linuxserver-booksonic-air
+name: booksonic-air
 services:
   app:
     image: linuxserver/booksonic-air:2201.1.0
@@ -38,13 +38,10 @@ services:
       - type: bind
         source: /DATA/AppData/booksonic-air/config
         target: /config
-      - type: bind
         source: /DATA/AppData/booksonic-air/audiobooks
         target: /audiobooks
-      - type: bind
         source: /DATA/AppData/booksonic-air/podcasts
         target: /podcasts
-      - type: bind
         source: /DATA/AppData/booksonic-air/othermedia
         target: /othermedia
 x-casaos:

@@ -1,4 +1,4 @@
-name: linuxserver-opera
+name: opera
 services:
   app:
     image: linuxserver/opera:133.0.5932

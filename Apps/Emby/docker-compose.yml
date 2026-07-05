@@ -1,4 +1,4 @@
-name: linuxserver-emby
+name: emby
 services:
   app:
     image: linuxserver/emby:4.9.5
@@ -29,13 +29,10 @@ services:
       - type: bind
         source: /DATA/AppData/emby/config
         target: /config
-      - type: bind
         source: /DATA/AppData/emby/data/tvshows
         target: /data/tvshows
-      - type: bind
         source: /DATA/AppData/emby/data/movies
         target: /data/movies
-      - type: bind
         source: /opt/vc/lib
         target: /opt/vc/lib
 x-casaos:

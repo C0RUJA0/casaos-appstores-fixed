@@ -1,4 +1,4 @@
-name: linuxserver-quassel-core
+name: quassel-core
 services:
   app:
     image: linuxserver/quassel-core:0.14.0

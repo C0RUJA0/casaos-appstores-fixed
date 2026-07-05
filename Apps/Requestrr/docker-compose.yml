@@ -1,4 +1,4 @@
-name: linuxserver-requestrr
+name: requestrr
 services:
   app:
     image: linuxserver/requestrr:2.1.2

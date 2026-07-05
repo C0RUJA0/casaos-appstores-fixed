@@ -1,4 +1,4 @@
-name: linuxserver-vlc
+name: vlc
 services:
   app:
     image: linuxserver/vlc:3.0.23

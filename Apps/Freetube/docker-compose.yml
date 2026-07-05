@@ -1,4 +1,4 @@
-name: linuxserver-freetube
+name: freetube
 services:
   app:
     image: linuxserver/freetube:version-190523148

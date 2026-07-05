@@ -1,4 +1,4 @@
-name: linuxserver-domoticz
+name: domoticz
 services:
   app:
     image: linuxserver/domoticz:2023.2.20231129

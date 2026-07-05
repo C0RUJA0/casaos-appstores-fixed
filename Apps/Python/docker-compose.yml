@@ -1,4 +1,4 @@
-name: linuxserver-python
+name: python
 services:
   app:
     image: linuxserver/python:3.13.1

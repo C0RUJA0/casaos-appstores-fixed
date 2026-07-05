@@ -1,4 +1,4 @@
-name: linuxserver-onlyoffice
+name: onlyoffice
 services:
   app:
     image: linuxserver/onlyoffice:9.4.0

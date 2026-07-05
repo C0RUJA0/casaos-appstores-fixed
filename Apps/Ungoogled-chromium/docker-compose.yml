@@ -1,4 +1,4 @@
-name: linuxserver-ungoogled-chromium
+name: ungoogled-chromium
 services:
   app:
     image: linuxserver/ungoogled-chromium:150.0.7871

@@ -1,4 +1,4 @@
-name: linuxserver-resilio-sync
+name: resilio-sync
 services:
   app:
     image: linuxserver/resilio-sync:3.1.2
@@ -29,10 +29,8 @@ services:
       - type: bind
         source: /DATA/AppData/resilio-sync/config
         target: /config
-      - type: bind
         source: /DATA/AppData/resilio-sync/downloads
         target: /downloads
-      - type: bind
         source: /DATA/AppData/resilio-sync/sync
         target: /sync
 x-casaos:

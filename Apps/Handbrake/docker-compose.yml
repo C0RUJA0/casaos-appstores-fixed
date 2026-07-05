@@ -1,4 +1,4 @@
-name: linuxserver-handbrake
+name: handbrake
 services:
   app:
     image: linuxserver/handbrake:1.11.2

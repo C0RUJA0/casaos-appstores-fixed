@@ -1,4 +1,4 @@
-name: linuxserver-planka
+name: planka
 services:
   app:
     image: linuxserver/planka:2.1.1

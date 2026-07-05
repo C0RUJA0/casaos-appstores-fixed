@@ -1,4 +1,4 @@
-name: linuxserver-gitqlient
+name: gitqlient
 services:
   app:
     image: linuxserver/gitqlient:1.6.3

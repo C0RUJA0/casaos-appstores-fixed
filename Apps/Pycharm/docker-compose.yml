@@ -1,4 +1,4 @@
-name: linuxserver-pycharm
+name: pycharm
 services:
   app:
     image: linuxserver/pycharm:2026.1.3

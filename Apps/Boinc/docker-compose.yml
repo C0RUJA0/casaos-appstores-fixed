@@ -1,4 +1,4 @@
-name: linuxserver-boinc
+name: boinc
 services:
   app:
     image: linuxserver/boinc:8.2.8

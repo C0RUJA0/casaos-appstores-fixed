@@ -1,4 +1,4 @@
-name: linuxserver-yq
+name: yq
 services:
   app:
     image: linuxserver/yq:3.4.3

@@ -1,4 +1,4 @@
-name: linuxserver-yaak
+name: yaak
 services:
   app:
     image: linuxserver/yaak:2026.4.0

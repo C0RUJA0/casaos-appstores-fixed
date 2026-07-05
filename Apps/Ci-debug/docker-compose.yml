@@ -1,4 +1,4 @@
-name: linuxserver-ci-debug
+name: ci-debug
 services:
   app:
     image: linuxserver/ci-debug:933e2702-ls1

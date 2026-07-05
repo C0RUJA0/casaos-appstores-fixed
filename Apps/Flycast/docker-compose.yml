@@ -1,4 +1,4 @@
-name: linuxserver-flycast
+name: flycast
 services:
   app:
     image: linuxserver/flycast:2.6.20260628

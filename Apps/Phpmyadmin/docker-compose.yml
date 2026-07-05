@@ -1,4 +1,4 @@
-name: linuxserver-phpmyadmin
+name: phpmyadmin
 services:
   app:
     image: linuxserver/phpmyadmin:5.2.3

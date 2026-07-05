@@ -1,4 +1,4 @@
-name: linuxserver-cops
+name: cops
 services:
   app:
     image: linuxserver/cops:4.5.2
@@ -29,7 +29,6 @@ services:
       - type: bind
         source: /DATA/AppData/cops/config
         target: /config
-      - type: bind
         source: /DATA/AppData/cops/books
         target: /books
 x-casaos:

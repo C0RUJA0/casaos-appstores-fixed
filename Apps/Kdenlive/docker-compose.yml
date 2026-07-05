@@ -1,4 +1,4 @@
-name: linuxserver-kdenlive
+name: kdenlive
 services:
   app:
     image: linuxserver/kdenlive:26.04.3

@@ -1,4 +1,4 @@
-name: linuxserver-joplin
+name: joplin
 services:
   app:
     image: linuxserver/joplin:3.6.15

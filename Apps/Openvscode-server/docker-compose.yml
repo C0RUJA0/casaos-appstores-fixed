@@ -1,4 +1,4 @@
-name: linuxserver-openvscode-server
+name: openvscode-server
 services:
   app:
     image: linuxserver/openvscode-server:1.109.5
@@ -42,7 +42,6 @@ services:
       - type: bind
         source: /DATA/AppData/openvscode-server/config
         target: /config
-      - type: bind
         source: /
         target: /casaos
 x-casaos:

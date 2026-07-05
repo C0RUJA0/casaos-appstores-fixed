@@ -1,4 +1,4 @@
-name: linuxserver-shotcut
+name: shotcut
 services:
   app:
     image: linuxserver/shotcut:26.6.25

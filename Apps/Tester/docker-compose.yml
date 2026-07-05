@@ -1,4 +1,4 @@
-name: linuxserver-tester
+name: tester
 services:
   app:
     image: linuxserver/tester:version-66f677b0

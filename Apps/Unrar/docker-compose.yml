@@ -1,4 +1,4 @@
-name: linuxserver-unrar
+name: unrar
 services:
   app:
     image: linuxserver/unrar:7.0.9

@@ -1,4 +1,4 @@
-name: linuxserver-pairdrop
+name: pairdrop
 services:
   app:
     image: linuxserver/pairdrop:1.11.2

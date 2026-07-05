@@ -1,4 +1,4 @@
-name: linuxserver-steamos
+name: steamos
 services:
   app:
     image: linuxserver/steamos:version-2024-12-20
@@ -45,10 +45,8 @@ services:
       - type: bind
         source: /DATA/AppData/steamos/config
         target: /config
-      - type: bind
         source: /dev/input
         target: /dev/input
-      - type: bind
         source: /run/udev/data
         target: /run/udev/data
 x-casaos:

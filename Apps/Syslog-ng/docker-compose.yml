@@ -1,4 +1,4 @@
-name: linuxserver-syslog-ng
+name: syslog-ng
 services:
   app:
     image: linuxserver/syslog-ng:4.10.2
@@ -36,7 +36,6 @@ services:
       - type: bind
         source: /DATA/AppData/syslog-ng/config
         target: /config
-      - type: bind
         source: /var/log
         target: /var/log
 x-casaos:

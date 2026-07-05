@@ -1,4 +1,4 @@
-name: linuxserver-qemu-static
+name: qemu-static
 services:
   app:
     image: linuxserver/qemu-static:10.0.2

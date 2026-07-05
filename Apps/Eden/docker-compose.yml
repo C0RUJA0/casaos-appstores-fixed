@@ -1,4 +1,4 @@
-name: linuxserver-eden
+name: eden
 services:
   app:
     image: linuxserver/eden:0.2.1

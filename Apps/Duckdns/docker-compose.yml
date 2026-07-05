@@ -1,4 +1,4 @@
-name: linuxserver-duckdns
+name: duckdns
 services:
   app:
     image: linuxserver/duckdns:version-d67e71cc
@@ -42,7 +42,6 @@ services:
       - type: bind
         source: /DATA/AppData/duckdns/config
         target: /config
-      - type: bind
         source: /DATA/AppData/duckdns/config
         target: /config
 x-casaos:

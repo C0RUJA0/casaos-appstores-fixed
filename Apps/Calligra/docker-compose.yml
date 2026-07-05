@@ -1,4 +1,4 @@
-name: linuxserver-calligra
+name: calligra
 services:
   app:
     image: linuxserver/calligra:3.2.1

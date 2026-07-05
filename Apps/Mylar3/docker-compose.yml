@@ -1,4 +1,4 @@
-name: linuxserver-mylar3
+name: mylar3
 services:
   app:
     image: linuxserver/mylar3:0.10.0
@@ -26,10 +26,8 @@ services:
       - type: bind
         source: /DATA/AppData/mylar3/config
         target: /config
-      - type: bind
         source: /DATA/AppData/mylar3/comics
         target: /comics
-      - type: bind
         source: /DATA/AppData/mylar3/downloads
         target: /downloads
 x-casaos:

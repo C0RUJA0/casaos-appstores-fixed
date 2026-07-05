@@ -1,4 +1,4 @@
-name: linuxserver-habridge
+name: habridge
 services:
   app:
     image: linuxserver/habridge:5.4.1

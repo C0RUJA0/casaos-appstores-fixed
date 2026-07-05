@@ -1,4 +1,4 @@
-name: linuxserver-ardour
+name: ardour
 services:
   app:
     image: linuxserver/ardour:version-2026-06-19

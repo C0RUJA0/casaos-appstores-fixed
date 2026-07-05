@@ -1,4 +1,4 @@
-name: linuxserver-gimp
+name: gimp
 services:
   app:
     image: linuxserver/gimp:version-abd1e4d4

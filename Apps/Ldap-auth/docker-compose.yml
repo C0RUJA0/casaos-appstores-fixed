@@ -1,4 +1,4 @@
-name: linuxserver-ldap-auth
+name: ldap-auth
 services:
   app:
     image: linuxserver/ldap-auth:3.4.7

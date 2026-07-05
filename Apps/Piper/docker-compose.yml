@@ -1,4 +1,4 @@
-name: linuxserver-piper
+name: piper
 services:
   app:
     image: linuxserver/piper:2.2.2

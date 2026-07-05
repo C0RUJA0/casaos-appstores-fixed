@@ -1,4 +1,4 @@
-name: linuxserver-vivaldi
+name: vivaldi
 services:
   app:
     image: linuxserver/vivaldi:8.0.4033

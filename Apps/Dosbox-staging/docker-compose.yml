@@ -1,4 +1,4 @@
-name: linuxserver-dosbox-staging
+name: dosbox-staging
 services:
   app:
     image: linuxserver/dosbox-staging:0.82.2

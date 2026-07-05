@@ -1,4 +1,4 @@
-name: linuxserver-krita
+name: krita
 services:
   app:
     image: linuxserver/krita:5.3.2

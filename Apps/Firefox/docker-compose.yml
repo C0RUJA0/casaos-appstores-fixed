@@ -1,4 +1,4 @@
-name: linuxserver-firefox
+name: firefox
 services:
   app:
     image: linuxserver/firefox:1152.0.4

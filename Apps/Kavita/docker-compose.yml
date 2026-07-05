@@ -1,4 +1,4 @@
-name: linuxserver-kavita
+name: kavita
 services:
   app:
     image: linuxserver/kavita:0.9.0
@@ -26,7 +26,6 @@ services:
       - type: bind
         source: /DATA/AppData/kavita/config
         target: /config
-      - type: bind
         source: /DATA/AppData/kavita/data
         target: /data
 x-casaos:

@@ -1,4 +1,4 @@
-name: linuxserver-bazarr
+name: bazarr
 services:
   app:
     image: linuxserver/bazarr:1.6.0
@@ -26,10 +26,8 @@ services:
       - type: bind
         source: /DATA/AppData/bazarr/config
         target: /config
-      - type: bind
         source: /DATA/AppData/bazarr/movies
         target: /movies
-      - type: bind
         source: /DATA/AppData/bazarr/tv
         target: /tv
 x-casaos:

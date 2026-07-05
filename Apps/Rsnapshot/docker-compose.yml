@@ -1,4 +1,4 @@
-name: linuxserver-rsnapshot
+name: rsnapshot
 services:
   app:
     image: linuxserver/rsnapshot:1.4.5
@@ -26,10 +26,8 @@ services:
       - type: bind
         source: /DATA/AppData/rsnapshot/config
         target: /config
-      - type: bind
         source: /DATA/AppData/rsnapshot/.snapshots
         target: /.snapshots
-      - type: bind
         source: /DATA/AppData/rsnapshot/data
         target: /data
 x-casaos:

@@ -1,4 +1,4 @@
-name: linuxserver-retroarch
+name: retroarch
 services:
   app:
     image: linuxserver/retroarch:1.22.2

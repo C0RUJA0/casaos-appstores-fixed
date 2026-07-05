@@ -1,4 +1,4 @@
-name: linuxserver-prowlarr
+name: prowlarr
 services:
   app:
     image: linuxserver/prowlarr:2.4.0

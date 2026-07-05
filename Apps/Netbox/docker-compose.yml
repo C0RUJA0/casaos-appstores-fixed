@@ -1,4 +1,4 @@
-name: linuxserver-netbox
+name: netbox
 services:
   app:
     image: linuxserver/netbox:4.6.4

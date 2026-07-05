@@ -1,4 +1,4 @@
-name: linuxserver-qdirstat
+name: qdirstat
 services:
   app:
     image: linuxserver/qdirstat:2.0.20260628
@@ -29,7 +29,6 @@ services:
       - type: bind
         source: /DATA/AppData/qdirstat/config
         target: /config
-      - type: bind
         source: /DATA/AppData/qdirstat/data
         target: /data
 x-casaos:

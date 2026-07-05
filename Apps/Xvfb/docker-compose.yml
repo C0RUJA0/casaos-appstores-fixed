@@ -1,4 +1,4 @@
-name: linuxserver-xvfb
+name: xvfb
 services:
   app:
     image: linuxserver/xvfb:debiantrixie-version-9d327c0f

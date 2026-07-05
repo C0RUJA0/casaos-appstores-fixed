@@ -1,4 +1,4 @@
-name: linuxserver-freshrss
+name: freshrss
 services:
   app:
     image: linuxserver/freshrss:1.29.1

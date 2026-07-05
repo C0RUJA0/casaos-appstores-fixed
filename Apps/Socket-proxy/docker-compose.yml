@@ -1,4 +1,4 @@
-name: linuxserver-socket-proxy
+name: socket-proxy
 services:
   app:
     image: linuxserver/socket-proxy:3.4.2

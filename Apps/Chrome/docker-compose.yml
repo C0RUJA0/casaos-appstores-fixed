@@ -1,4 +1,4 @@
-name: linuxserver-chrome
+name: chrome
 services:
   app:
     image: linuxserver/chrome:150.0.7871

@@ -1,4 +1,4 @@
-name: linuxserver-duckstation
+name: duckstation
 services:
   app:
     image: linuxserver/duckstation:version-latest

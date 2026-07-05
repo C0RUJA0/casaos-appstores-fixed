@@ -1,4 +1,4 @@
-name: linuxserver-shadps4
+name: shadps4
 services:
   app:
     image: linuxserver/shadps4:version-shadPS4QtLauncher-2026-07-02-99e9829e3787031e7eee61935ffd09e8ad8678d1

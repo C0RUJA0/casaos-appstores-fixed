@@ -1,4 +1,4 @@
-name: linuxserver-mediaelch
+name: mediaelch
 services:
   app:
     image: linuxserver/mediaelch:2.12.0

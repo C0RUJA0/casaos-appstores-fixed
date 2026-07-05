@@ -1,4 +1,4 @@
-name: linuxserver-wireguard
+name: wireguard
 services:
   app:
     image: linuxserver/wireguard:1.0.20250521
@@ -58,7 +58,6 @@ services:
       - type: bind
         source: /DATA/AppData/wireguard/config
         target: /config
-      - type: bind
         source: /lib/modules
         target: /lib/modules
 x-casaos:

@@ -1,4 +1,4 @@
-name: linuxserver-sickgear
+name: sickgear
 services:
   app:
     image: linuxserver/sickgear:3.35.9
@@ -26,10 +26,8 @@ services:
       - type: bind
         source: /DATA/AppData/sickgear/config
         target: /config
-      - type: bind
         source: /DATA/AppData/sickgear/tv
         target: /tv
-      - type: bind
         source: /DATA/AppData/sickgear/downloads
         target: /downloads
 x-casaos:

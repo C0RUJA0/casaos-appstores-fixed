@@ -1,4 +1,4 @@
-name: linuxserver-ci
+name: ci
 services:
   app:
     image: linuxserver/ci:b1ca9f98-ls65

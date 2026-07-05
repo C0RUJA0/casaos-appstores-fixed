@@ -1,4 +1,4 @@
-name: linuxserver-ppsspp
+name: ppsspp
 services:
   app:
     image: linuxserver/ppsspp:1.20.4

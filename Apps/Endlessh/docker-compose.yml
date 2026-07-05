@@ -1,4 +1,4 @@
-name: linuxserver-endlessh
+name: endlessh
 services:
   app:
     image: linuxserver/endlessh:version-dfe44eb2
@@ -42,7 +42,6 @@ services:
         - container: /config
           description:
             en_us: Required if `LOGFILE` is set to `true`.
-        - container: /config
           description:
             en_us: Required if `LOGFILE` is set to `true`.
       ports:
@@ -57,7 +56,6 @@ services:
       - type: bind
         source: /DATA/AppData/endlessh/config
         target: /config
-      - type: bind
         source: /DATA/AppData/endlessh/config
         target: /config
 x-casaos:

@@ -1,4 +1,4 @@
-name: linuxserver-medusa
+name: medusa
 services:
   app:
     image: linuxserver/medusa:1.0.25
@@ -26,10 +26,8 @@ services:
       - type: bind
         source: /DATA/AppData/medusa/config
         target: /config
-      - type: bind
         source: /DATA/AppData/medusa/downloads
         target: /downloads
-      - type: bind
         source: /DATA/AppData/medusa/tv
         target: /tv
 x-casaos:

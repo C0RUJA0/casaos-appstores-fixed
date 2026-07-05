@@ -1,4 +1,4 @@
-name: linuxserver-remmina
+name: remmina
 services:
   app:
     image: linuxserver/remmina:1.4.40

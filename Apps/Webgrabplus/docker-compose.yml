@@ -1,4 +1,4 @@
-name: linuxserver-webgrabplus
+name: webgrabplus
 services:
   app:
     image: linuxserver/webgrabplus:5.6.0
@@ -26,7 +26,6 @@ services:
       - type: bind
         source: /DATA/AppData/webgrabplus/config
         target: /config
-      - type: bind
         source: /DATA/AppData/webgrabplus/data
         target: /data
 x-casaos:

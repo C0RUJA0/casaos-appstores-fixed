@@ -1,4 +1,4 @@
-name: linuxserver-kometa
+name: kometa
 services:
   app:
     image: linuxserver/kometa:2.4.4

@@ -1,4 +1,4 @@
-name: linuxserver-openshot
+name: openshot
 services:
   app:
     image: linuxserver/openshot:3.5.1

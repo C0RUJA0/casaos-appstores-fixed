@@ -1,4 +1,4 @@
-name: linuxserver-pydio-cells
+name: pydio-cells
 services:
   app:
     image: linuxserver/pydio-cells:5.0.2

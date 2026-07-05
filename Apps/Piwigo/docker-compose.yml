@@ -1,4 +1,4 @@
-name: linuxserver-piwigo
+name: piwigo
 services:
   app:
     image: linuxserver/piwigo:16.4.0
@@ -26,7 +26,6 @@ services:
       - type: bind
         source: /DATA/AppData/piwigo/config
         target: /config
-      - type: bind
         source: /DATA/AppData/piwigo/gallery
         target: /gallery
 x-casaos:

@@ -1,4 +1,4 @@
-name: linuxserver-lychee
+name: lychee
 services:
   app:
     image: linuxserver/lychee:7.6.4
@@ -62,7 +62,6 @@ services:
       - type: bind
         source: /DATA/AppData/lychee/config
         target: /config
-      - type: bind
         source: /DATA/AppData/lychee/pictures
         target: /pictures
 x-casaos:

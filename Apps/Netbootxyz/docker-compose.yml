@@ -1,4 +1,4 @@
-name: linuxserver-netbootxyz
+name: netbootxyz
 services:
   app:
     image: linuxserver/netbootxyz:0.7.3
@@ -69,7 +69,6 @@ services:
       - type: bind
         source: /DATA/AppData/netbootxyz/config
         target: /config
-      - type: bind
         source: /DATA/AppData/netbootxyz/assets
         target: /assets
 x-casaos:

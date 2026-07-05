@@ -1,4 +1,4 @@
-name: linuxserver-helium
+name: helium
 services:
   app:
     image: linuxserver/helium:0.14.3

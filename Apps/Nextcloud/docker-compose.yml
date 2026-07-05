@@ -1,4 +1,4 @@
-name: linuxserver-nextcloud
+name: nextcloud
 services:
   app:
     image: linuxserver/nextcloud:34.0.1
@@ -29,7 +29,6 @@ services:
       - type: bind
         source: /DATA/AppData/nextcloud/config
         target: /config
-      - type: bind
         source: /DATA/AppData/nextcloud/data
         target: /data
 x-casaos:

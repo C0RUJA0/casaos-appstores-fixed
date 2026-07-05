@@ -1,4 +1,4 @@
-name: linuxserver-calibre
+name: calibre
 services:
   app:
     image: linuxserver/calibre:9.11.0

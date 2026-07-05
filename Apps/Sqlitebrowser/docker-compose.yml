@@ -1,4 +1,4 @@
-name: linuxserver-sqlitebrowser
+name: sqlitebrowser
 services:
   app:
     image: linuxserver/sqlitebrowser:3.13.1

@@ -1,4 +1,4 @@
-name: linuxserver-sealskin
+name: sealskin
 services:
   app:
     image: linuxserver/sealskin:0.1.39
@@ -33,10 +33,8 @@ services:
       - type: bind
         source: /DATA/AppData/sealskin/config
         target: /config
-      - type: bind
         source: /DATA/AppData/sealskin/storage
         target: /storage
-      - type: bind
         source: /var/run/docker.sock
         target: /var/run/docker.sock
 x-casaos:

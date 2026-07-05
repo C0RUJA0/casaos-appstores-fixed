@@ -1,4 +1,4 @@
-name: linuxserver-blender
+name: blender
 services:
   app:
     image: linuxserver/blender:5.1.2

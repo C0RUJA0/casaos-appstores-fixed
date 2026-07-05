@@ -1,4 +1,4 @@
-name: linuxserver-htpcmanager
+name: htpcmanager
 services:
   app:
     image: linuxserver/htpcmanager:version-26a641bf

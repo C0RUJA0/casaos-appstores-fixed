@@ -1,4 +1,4 @@
-name: linuxserver-webstation
+name: webstation
 services:
   app:
     image: linuxserver/webstation:version-0e7fc506

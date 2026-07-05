@@ -1,4 +1,4 @@
-name: linuxserver-kimai
+name: kimai
 services:
   app:
     image: linuxserver/kimai:2.61.0

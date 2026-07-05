@@ -1,4 +1,4 @@
-name: linuxserver-modmanager
+name: modmanager
 services:
   app:
     image: linuxserver/modmanager:version-d1828b41

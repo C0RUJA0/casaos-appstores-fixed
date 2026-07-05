@@ -1,4 +1,4 @@
-name: linuxserver-sonarr
+name: sonarr
 services:
   app:
     image: linuxserver/sonarr:4.0.19
@@ -26,10 +26,8 @@ services:
       - type: bind
         source: /DATA/AppData/sonarr/config
         target: /config
-      - type: bind
         source: /DATA/AppData/sonarr/tv
         target: /tv
-      - type: bind
         source: /DATA/AppData/sonarr/downloads
         target: /downloads
 x-casaos:

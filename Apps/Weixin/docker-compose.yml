@@ -1,4 +1,4 @@
-name: linuxserver-weixin
+name: weixin
 services:
   app:
     image: linuxserver/weixin:version-cc407cda

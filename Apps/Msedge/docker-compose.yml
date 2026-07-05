@@ -1,4 +1,4 @@
-name: linuxserver-msedge
+name: msedge
 services:
   app:
     image: linuxserver/msedge:150.0.4078

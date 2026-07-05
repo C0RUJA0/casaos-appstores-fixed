@@ -1,4 +1,4 @@
-name: linuxserver-zen
+name: zen
 services:
   app:
     image: linuxserver/zen:1.21.5

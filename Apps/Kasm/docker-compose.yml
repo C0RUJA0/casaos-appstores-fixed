@@ -1,4 +1,4 @@
-name: linuxserver-kasm
+name: kasm
 services:
   app:
     image: linuxserver/kasm:1.19.0
@@ -33,13 +33,10 @@ services:
       - type: bind
         source: /DATA/AppData/kasm/opt
         target: /opt
-      - type: bind
         source: /DATA/AppData/kasm/profiles
         target: /profiles
-      - type: bind
         source: /dev/input
         target: /dev/input
-      - type: bind
         source: /run/udev/data
         target: /run/udev/data
 x-casaos:

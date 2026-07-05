@@ -1,4 +1,4 @@
-name: linuxserver-foldingathome
+name: foldingathome
 services:
   app:
     image: linuxserver/foldingathome:8.5.5

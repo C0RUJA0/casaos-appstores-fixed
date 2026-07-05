@@ -1,4 +1,4 @@
-name: linuxserver-spotube
+name: spotube
 services:
   app:
     image: linuxserver/spotube:5.1.2

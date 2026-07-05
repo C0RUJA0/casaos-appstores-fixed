@@ -1,4 +1,4 @@
-name: linuxserver-tvheadend
+name: tvheadend
 services:
   app:
     image: linuxserver/tvheadend:version-80729d2f
@@ -33,7 +33,6 @@ services:
       - type: bind
         source: /DATA/AppData/tvheadend/config
         target: /config
-      - type: bind
         source: /DATA/AppData/tvheadend/recordings
         target: /recordings
     devices:

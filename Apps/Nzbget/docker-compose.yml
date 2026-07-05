@@ -1,4 +1,4 @@
-name: linuxserver-nzbget
+name: nzbget
 services:
   app:
     image: linuxserver/nzbget:26.2.20260703
@@ -34,7 +34,6 @@ services:
       - type: bind
         source: /DATA/AppData/nzbget/config
         target: /config
-      - type: bind
         source: /DATA/AppData/nzbget/downloads
         target: /downloads
 x-casaos:

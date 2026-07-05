@@ -1,4 +1,4 @@
-name: linuxserver-luanti
+name: luanti
 services:
   app:
     image: linuxserver/luanti:5.16.1

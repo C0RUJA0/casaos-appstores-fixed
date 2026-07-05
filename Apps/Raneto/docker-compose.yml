@@ -1,4 +1,4 @@
-name: linuxserver-raneto
+name: raneto
 services:
   app:
     image: linuxserver/raneto:0.18.1

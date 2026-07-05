@@ -1,4 +1,4 @@
-name: linuxserver-sickchill
+name: sickchill
 services:
   app:
     image: linuxserver/sickchill:2024.3.1
@@ -40,10 +40,8 @@ services:
       - type: bind
         source: /DATA/AppData/sickchill/config
         target: /config
-      - type: bind
         source: /DATA/AppData/sickchill/downloads
         target: /downloads
-      - type: bind
         source: /DATA/AppData/sickchill/tv
         target: /tv
 x-casaos:

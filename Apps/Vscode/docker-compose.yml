@@ -1,4 +1,4 @@
-name: linuxserver-vscode
+name: vscode
 services:
   app:
     image: linuxserver/vscode:1.126.0

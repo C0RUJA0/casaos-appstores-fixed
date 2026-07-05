@@ -1,4 +1,4 @@
-name: linuxserver-kicad
+name: kicad
 services:
   app:
     image: linuxserver/kicad:10.0.3

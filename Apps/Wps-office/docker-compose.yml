@@ -1,4 +1,4 @@
-name: linuxserver-wps-office
+name: wps-office
 services:
   app:
     image: linuxserver/wps-office:11.1.0

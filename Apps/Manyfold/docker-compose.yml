@@ -1,4 +1,4 @@
-name: linuxserver-manyfold
+name: manyfold
 services:
   app:
     image: linuxserver/manyfold:0.146.0
@@ -38,7 +38,6 @@ services:
       - type: bind
         source: /DATA/AppData/manyfold/config
         target: /config
-      - type: bind
         source: /DATA/AppData/manyfold/libraries
         target: /libraries
 x-casaos:

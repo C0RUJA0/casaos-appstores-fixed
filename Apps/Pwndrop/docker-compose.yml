@@ -1,4 +1,4 @@
-name: linuxserver-pwndrop
+name: pwndrop
 services:
   app:
     image: linuxserver/pwndrop:1.0.1

@@ -1,4 +1,4 @@
-name: linuxserver-librewolf
+name: librewolf
 services:
   app:
     image: linuxserver/librewolf:152.0.4

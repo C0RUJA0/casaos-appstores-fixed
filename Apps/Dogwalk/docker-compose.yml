@@ -1,4 +1,4 @@
-name: linuxserver-dogwalk
+name: dogwalk
 services:
   app:
     image: linuxserver/dogwalk:version-960443b4

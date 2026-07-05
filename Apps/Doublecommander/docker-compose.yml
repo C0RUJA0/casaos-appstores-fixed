@@ -1,4 +1,4 @@
-name: linuxserver-doublecommander
+name: doublecommander
 services:
   app:
     image: linuxserver/doublecommander:version-9fa0e460
@@ -29,7 +29,6 @@ services:
       - type: bind
         source: /DATA/AppData/doublecommander/config
         target: /config
-      - type: bind
         source: /DATA/AppData/doublecommander/data
         target: /data
 x-casaos:

@@ -1,4 +1,4 @@
-name: linuxserver-minisatip
+name: minisatip
 services:
   app:
     image: linuxserver/minisatip:2.0.87

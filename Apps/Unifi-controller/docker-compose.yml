@@ -1,4 +1,4 @@
-name: linuxserver-unifi-controller
+name: unifi-controller
 services:
   app:
     image: linuxserver/unifi-controller:8.0.24

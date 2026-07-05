@@ -1,4 +1,4 @@
-name: linuxserver-lidarr
+name: lidarr
 services:
   app:
     image: linuxserver/lidarr:3.1.0
@@ -26,10 +26,8 @@ services:
       - type: bind
         source: /DATA/AppData/lidarr/config
         target: /config
-      - type: bind
         source: /DATA/AppData/lidarr/music
         target: /music
-      - type: bind
         source: /DATA/AppData/lidarr/downloads
         target: /downloads
 x-casaos:

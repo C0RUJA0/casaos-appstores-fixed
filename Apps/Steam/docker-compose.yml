@@ -1,4 +1,4 @@
-name: linuxserver-steam
+name: steam
 services:
   app:
     image: linuxserver/steam:702c6f08-ls29

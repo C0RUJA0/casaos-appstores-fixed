@@ -1,4 +1,4 @@
-name: linuxserver-bookstack
+name: bookstack
 services:
   app:
     image: linuxserver/bookstack:26.05.2

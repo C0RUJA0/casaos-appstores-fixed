@@ -1,4 +1,4 @@
-name: linuxserver-fleet
+name: fleet
 services:
   app:
     image: linuxserver/fleet:2.3.3

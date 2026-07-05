@@ -1,4 +1,4 @@
-name: linuxserver-digikam
+name: digikam
 services:
   app:
     image: linuxserver/digikam:9.1.0

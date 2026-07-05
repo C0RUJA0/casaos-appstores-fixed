@@ -1,4 +1,4 @@
-name: linuxserver-smokeping
+name: smokeping
 services:
   app:
     image: linuxserver/smokeping:2.9.0
@@ -38,7 +38,6 @@ services:
       - type: bind
         source: /DATA/AppData/smokeping/config
         target: /config
-      - type: bind
         source: /DATA/AppData/smokeping/data
         target: /data
 x-casaos:

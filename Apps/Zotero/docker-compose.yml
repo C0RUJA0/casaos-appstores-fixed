@@ -1,4 +1,4 @@
-name: linuxserver-zotero
+name: zotero
 services:
   app:
     image: linuxserver/zotero:9.0.4

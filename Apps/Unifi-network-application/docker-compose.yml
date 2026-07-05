@@ -1,4 +1,4 @@
-name: linuxserver-unifi-network-application
+name: unifi-network-application
 services:
   app:
     image: linuxserver/unifi-network-application:10.4.57

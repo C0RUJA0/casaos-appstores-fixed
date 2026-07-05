@@ -1,4 +1,4 @@
-name: linuxserver-healthchecks
+name: healthchecks
 services:
   app:
     image: linuxserver/healthchecks:4.2.20260629

@@ -1,4 +1,4 @@
-name: linuxserver-melonds
+name: melonds
 services:
   app:
     image: linuxserver/melonds:1.1.20260622

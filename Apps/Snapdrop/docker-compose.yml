@@ -1,4 +1,4 @@
-name: linuxserver-snapdrop
+name: snapdrop
 services:
   app:
     image: linuxserver/snapdrop:version-f88d46ed

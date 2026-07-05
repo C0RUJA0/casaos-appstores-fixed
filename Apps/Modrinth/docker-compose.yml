@@ -1,4 +1,4 @@
-name: linuxserver-modrinth
+name: modrinth
 services:
   app:
     image: linuxserver/modrinth:0.15.7

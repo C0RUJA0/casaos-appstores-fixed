@@ -1,4 +1,4 @@
-name: linuxserver-budge
+name: budge
 services:
   app:
     image: linuxserver/budge:0.0.9

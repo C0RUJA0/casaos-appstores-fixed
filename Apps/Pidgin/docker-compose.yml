@@ -1,4 +1,4 @@
-name: linuxserver-pidgin
+name: pidgin
 services:
   app:
     image: linuxserver/pidgin:2.14.14

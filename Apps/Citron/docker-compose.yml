@@ -1,4 +1,4 @@
-name: linuxserver-citron
+name: citron
 services:
   app:
     image: linuxserver/citron:2026.02.1

@@ -1,4 +1,4 @@
-name: linuxserver-orcaslicer
+name: orcaslicer
 services:
   app:
     image: linuxserver/orcaslicer:2.4.1

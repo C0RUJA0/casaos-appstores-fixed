@@ -1,4 +1,4 @@
-name: linuxserver-cura
+name: cura
 services:
   app:
     image: linuxserver/cura:5.13.0

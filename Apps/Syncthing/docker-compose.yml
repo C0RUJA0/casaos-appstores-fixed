@@ -1,4 +1,4 @@
-name: linuxserver-syncthing
+name: syncthing
 services:
   app:
     image: linuxserver/syncthing:2.1.1
@@ -35,10 +35,8 @@ services:
       - type: bind
         source: /DATA/AppData/syncthing/config
         target: /config
-      - type: bind
         source: /DATA/AppData/syncthing/data1
         target: /data1
-      - type: bind
         source: /DATA/AppData/syncthing/data2
         target: /data2
 x-casaos:

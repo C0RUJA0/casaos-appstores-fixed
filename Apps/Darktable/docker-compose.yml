@@ -1,4 +1,4 @@
-name: linuxserver-darktable
+name: darktable
 services:
   app:
     image: linuxserver/darktable:25.4.1

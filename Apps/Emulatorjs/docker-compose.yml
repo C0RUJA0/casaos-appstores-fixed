@@ -1,4 +1,4 @@
-name: linuxserver-emulatorjs
+name: emulatorjs
 services:
   app:
     image: linuxserver/emulatorjs:1.9.2
@@ -36,7 +36,6 @@ services:
       - type: bind
         source: /DATA/AppData/emulatorjs/config
         target: /config
-      - type: bind
         source: /DATA/AppData/emulatorjs/data
         target: /data
 x-casaos:

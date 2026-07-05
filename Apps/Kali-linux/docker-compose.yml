@@ -1,4 +1,4 @@
-name: linuxserver-kali-linux
+name: kali-linux
 services:
   app:
     image: linuxserver/kali-linux:version-26fa1455

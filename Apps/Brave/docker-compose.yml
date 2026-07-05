@@ -1,4 +1,4 @@
-name: linuxserver-brave
+name: brave
 services:
   app:
     image: linuxserver/brave:1.92.134

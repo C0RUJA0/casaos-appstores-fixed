@@ -1,4 +1,4 @@
-name: linuxserver-oscam
+name: oscam
 services:
   app:
     image: linuxserver/oscam:version-11965

@@ -1,4 +1,4 @@
-name: linuxserver-plex
+name: plex
 services:
   app:
     image: linuxserver/plex:1.43.2
@@ -34,10 +34,8 @@ services:
       - type: bind
         source: /DATA/AppData/plex/config
         target: /config
-      - type: bind
         source: /DATA/AppData/plex/tv
         target: /tv
-      - type: bind
         source: /DATA/AppData/plex/movies
         target: /movies
 x-casaos:

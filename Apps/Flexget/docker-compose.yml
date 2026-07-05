@@ -1,4 +1,4 @@
-name: linuxserver-flexget
+name: flexget
 services:
   app:
     image: linuxserver/flexget:3.19.26
@@ -42,7 +42,6 @@ services:
       - type: bind
         source: /DATA/AppData/flexget/config
         target: /config
-      - type: bind
         source: /DATA/AppData/flexget/data
         target: /data
 x-casaos:

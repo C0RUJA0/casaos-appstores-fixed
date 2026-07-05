@@ -1,4 +1,4 @@
-name: linuxserver-hedgedoc
+name: hedgedoc
 services:
   app:
     image: linuxserver/hedgedoc:1.11.0

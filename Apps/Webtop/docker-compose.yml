@@ -1,4 +1,4 @@
-name: linuxserver-webtop
+name: webtop
 services:
   app:
     image: linuxserver/webtop:latest

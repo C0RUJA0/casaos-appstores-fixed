@@ -1,4 +1,4 @@
-name: linuxserver-mstream
+name: mstream
 services:
   app:
     image: linuxserver/mstream:6.15.2
@@ -26,7 +26,6 @@ services:
       - type: bind
         source: /DATA/AppData/mstream/config
         target: /config
-      - type: bind
         source: /DATA/AppData/mstream/music
         target: /music
 x-casaos:

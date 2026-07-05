@@ -1,4 +1,4 @@
-name: linuxserver-doplarr
+name: doplarr
 services:
   app:
     image: linuxserver/doplarr:3.8.0

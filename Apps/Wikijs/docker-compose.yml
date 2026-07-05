@@ -1,4 +1,4 @@
-name: linuxserver-wikijs
+name: wikijs
 services:
   app:
     image: linuxserver/wikijs:2.5.314
@@ -50,7 +50,6 @@ services:
       - type: bind
         source: /DATA/AppData/wikijs/config
         target: /config
-      - type: bind
         source: /DATA/AppData/wikijs/data
         target: /data
 x-casaos:

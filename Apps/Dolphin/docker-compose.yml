@@ -1,4 +1,4 @@
-name: linuxserver-dolphin
+name: dolphin
 services:
   app:
     image: linuxserver/dolphin:2606-ls73

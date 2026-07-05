@@ -1,4 +1,4 @@
-name: linuxserver-headphones
+name: headphones
 services:
   app:
     image: linuxserver/headphones:version-a78f38c1
@@ -26,10 +26,8 @@ services:
       - type: bind
         source: /DATA/AppData/headphones/config
         target: /config
-      - type: bind
         source: /DATA/AppData/headphones/downloads
         target: /downloads
-      - type: bind
         source: /DATA/AppData/headphones/music
         target: /music
 x-casaos:

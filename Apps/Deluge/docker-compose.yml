@@ -1,4 +1,4 @@
-name: linuxserver-deluge
+name: deluge
 services:
   app:
     image: linuxserver/deluge:2.2.0
@@ -39,7 +39,6 @@ services:
       - type: bind
         source: /DATA/AppData/deluge/config
         target: /config
-      - type: bind
         source: /DATA/AppData/deluge/downloads
         target: /downloads
 x-casaos:

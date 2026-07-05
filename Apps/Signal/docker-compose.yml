@@ -1,4 +1,4 @@
-name: linuxserver-signal
+name: signal
 services:
   app:
     image: linuxserver/signal:8.17.0

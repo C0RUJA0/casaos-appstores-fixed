@@ -1,4 +1,4 @@
-name: linuxserver-librespeed
+name: librespeed
 services:
   app:
     image: linuxserver/librespeed:6.1.0

@@ -1,4 +1,4 @@
-name: linuxserver-qbittorrent
+name: qbittorrent
 services:
   app:
     image: linuxserver/qbittorrent:5.2.2
@@ -40,7 +40,6 @@ services:
       - type: bind
         source: /DATA/AppData/qbittorrent/config
         target: /config
-      - type: bind
         source: /DATA/AppData/qbittorrent/downloads
         target: /downloads
 x-casaos:

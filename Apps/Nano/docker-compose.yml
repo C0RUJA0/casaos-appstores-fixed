@@ -1,4 +1,4 @@
-name: linuxserver-nano
+name: nano
 services:
   app:
     image: linuxserver/nano:21.2.20220522

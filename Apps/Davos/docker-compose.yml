@@ -1,4 +1,4 @@
-name: linuxserver-davos
+name: davos
 services:
   app:
     image: linuxserver/davos:2.2.2
@@ -26,7 +26,6 @@ services:
       - type: bind
         source: /DATA/AppData/davos/config
         target: /config
-      - type: bind
         source: /DATA/AppData/davos/download
         target: /download
 x-casaos:

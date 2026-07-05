@@ -1,4 +1,4 @@
-name: linuxserver-mame
+name: mame
 services:
   app:
     image: linuxserver/mame:version-0.288dfsg1-0
@@ -29,7 +29,6 @@ services:
       - type: bind
         source: /DATA/AppData/mame/config
         target: /config
-      - type: bind
         source: /DATA/AppData/mame/mame:ro
         target: /mame:ro
 x-casaos:

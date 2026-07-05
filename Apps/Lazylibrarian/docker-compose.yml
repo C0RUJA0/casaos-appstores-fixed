@@ -1,4 +1,4 @@
-name: linuxserver-lazylibrarian
+name: lazylibrarian
 services:
   app:
     image: linuxserver/lazylibrarian:version-638f5c9a
@@ -30,10 +30,8 @@ services:
       - type: bind
         source: /DATA/AppData/lazylibrarian/config
         target: /config
-      - type: bind
         source: /DATA/AppData/lazylibrarian/downloads
         target: /downloads
-      - type: bind
         source: /DATA/AppData/lazylibrarian/books
         target: /books
 x-casaos:

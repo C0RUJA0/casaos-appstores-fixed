@@ -1,4 +1,4 @@
-name: linuxserver-lm-studio
+name: lm-studio
 services:
   app:
     image: linuxserver/lm-studio:2026-07-03-ls5

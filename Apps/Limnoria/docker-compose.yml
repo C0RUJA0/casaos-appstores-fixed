@@ -1,4 +1,4 @@
-name: linuxserver-limnoria
+name: limnoria
 services:
   app:
     image: linuxserver/limnoria:2026.5.8

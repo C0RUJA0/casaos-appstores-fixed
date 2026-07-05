@@ -1,4 +1,4 @@
-name: linuxserver-keepassxc
+name: keepassxc
 services:
   app:
     image: linuxserver/keepassxc:2.7.12

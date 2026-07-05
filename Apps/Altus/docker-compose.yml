@@ -1,4 +1,4 @@
-name: linuxserver-altus
+name: altus
 services:
   app:
     image: linuxserver/altus:5.8.0

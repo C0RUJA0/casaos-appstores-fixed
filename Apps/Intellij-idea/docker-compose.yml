@@ -1,4 +1,4 @@
-name: linuxserver-intellij-idea
+name: intellij-idea
 services:
   app:
     image: linuxserver/intellij-idea:42026.1.3

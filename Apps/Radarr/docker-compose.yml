@@ -1,4 +1,4 @@
-name: linuxserver-radarr
+name: radarr
 services:
   app:
     image: linuxserver/radarr:6.2.1
@@ -26,10 +26,8 @@ services:
       - type: bind
         source: /DATA/AppData/radarr/config
         target: /config
-      - type: bind
         source: /DATA/AppData/radarr/movies
         target: /movies
-      - type: bind
         source: /DATA/AppData/radarr/downloads
         target: /downloads
 x-casaos:

@@ -1,4 +1,4 @@
-name: linuxserver-jackett
+name: jackett
 services:
   app:
     image: linuxserver/jackett:0.24.2177
@@ -34,7 +34,6 @@ services:
       - type: bind
         source: /DATA/AppData/jackett/config
         target: /config
-      - type: bind
         source: /DATA/AppData/jackett/downloads
         target: /downloads
 x-casaos:

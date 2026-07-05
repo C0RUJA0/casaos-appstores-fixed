@@ -1,4 +1,4 @@
-name: linuxserver-vscodium-web
+name: vscodium-web
 services:
   app:
     image: linuxserver/vscodium-web:1.121.03429

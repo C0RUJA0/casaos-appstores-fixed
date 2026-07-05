@@ -1,4 +1,4 @@
-name: linuxserver-mullvad-browser
+name: mullvad-browser
 services:
   app:
     image: linuxserver/mullvad-browser:15.0.16
@@ -33,7 +33,6 @@ services:
       - type: bind
         source: /DATA/AppData/mullvad-browser/config
         target: /config
-      - type: bind
         source: /DATA/Downloads
         target: /config/Downloads
     cap_add:

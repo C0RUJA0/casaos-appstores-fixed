@@ -1,4 +1,4 @@
-name: linuxserver-azahar
+name: azahar
 services:
   app:
     image: linuxserver/azahar:12125.1.3

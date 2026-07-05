@@ -1,4 +1,4 @@
-name: linuxserver-jenkins-builder
+name: jenkins-builder
 services:
   app:
     image: linuxserver/jenkins-builder:version-4f81ddbe

@@ -1,4 +1,4 @@
-name: linuxserver-faster-whisper
+name: faster-whisper
 services:
   app:
     image: linuxserver/faster-whisper:3.3.1

@@ -1,4 +1,4 @@
-name: linuxserver-d2-builder
+name: d2-builder
 services:
   app:
     image: linuxserver/d2-builder:0.6.8

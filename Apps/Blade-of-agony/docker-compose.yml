@@ -1,4 +1,4 @@
-name: linuxserver-blade-of-agony
+name: blade-of-agony
 services:
   app:
     image: linuxserver/blade-of-agony:3.1.20260702

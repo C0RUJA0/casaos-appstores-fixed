@@ -1,4 +1,4 @@
-name: linuxserver-speedtest-tracker
+name: speedtest-tracker
 services:
   app:
     image: linuxserver/speedtest-tracker:1.14.5

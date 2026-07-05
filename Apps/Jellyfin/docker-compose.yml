@@ -1,4 +1,4 @@
-name: linuxserver-jellyfin
+name: jellyfin
 services:
   app:
     image: linuxserver/jellyfin:10.11.11
@@ -39,10 +39,8 @@ services:
       - type: bind
         source: /DATA/AppData/jellyfin/config
         target: /config
-      - type: bind
         source: /DATA/AppData/jellyfin/data/tvshows
         target: /data/tvshows
-      - type: bind
         source: /DATA/AppData/jellyfin/data/movies
         target: /data/movies
 x-casaos:

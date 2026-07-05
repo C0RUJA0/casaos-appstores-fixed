@@ -1,4 +1,4 @@
-name: linuxserver-daapd
+name: daapd
 services:
   app:
     image: linuxserver/daapd:28.10.20250108
@@ -26,7 +26,6 @@ services:
       - type: bind
         source: /DATA/AppData/daapd/config
         target: /config
-      - type: bind
         source: /DATA/AppData/daapd/music
         target: /music
 x-casaos:

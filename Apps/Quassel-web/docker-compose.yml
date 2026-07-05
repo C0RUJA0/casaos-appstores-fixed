@@ -1,4 +1,4 @@
-name: linuxserver-quassel-web
+name: quassel-web
 services:
   app:
     image: linuxserver/quassel-web:version-019bfdc1

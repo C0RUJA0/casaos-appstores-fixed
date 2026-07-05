@@ -1,4 +1,4 @@
-name: linuxserver-series-troxide
+name: series-troxide
 services:
   app:
     image: linuxserver/series-troxide:0.5.1

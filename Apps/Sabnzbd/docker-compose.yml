@@ -1,4 +1,4 @@
-name: linuxserver-sabnzbd
+name: sabnzbd
 services:
   app:
     image: linuxserver/sabnzbd:5.0.4
@@ -26,10 +26,8 @@ services:
       - type: bind
         source: /DATA/AppData/sabnzbd/config
         target: /config
-      - type: bind
         source: /DATA/AppData/sabnzbd/incomplete-downloads
         target: /incomplete-downloads
-      - type: bind
         source: /DATA/AppData/sabnzbd/downloads
         target: /downloads
 x-casaos:

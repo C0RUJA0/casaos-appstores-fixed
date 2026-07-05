@@ -1,4 +1,4 @@
-name: linuxserver-ubooquity
+name: ubooquity
 services:
   app:
     image: linuxserver/ubooquity:3.1.0
@@ -33,13 +33,10 @@ services:
       - type: bind
         source: /DATA/AppData/ubooquity/config
         target: /config
-      - type: bind
         source: /DATA/AppData/ubooquity/books
         target: /books
-      - type: bind
         source: /DATA/AppData/ubooquity/comics
         target: /comics
-      - type: bind
         source: /DATA/AppData/ubooquity/files
         target: /files
 x-casaos:
