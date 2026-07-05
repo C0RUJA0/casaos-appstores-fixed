@@ -1,0 +1,41 @@
+name: reverse
+services:
+  reverse:
+    image: vuldocker/reverse_shell_generator:1.0.0
+    deploy:
+      resources:
+        limits:
+          memory: 256M
+    restart: unless-stopped
+    ports:
+      - 18088:80
+    x-casaos:
+      ports:
+        - container: "18089"
+          description:
+            en_us: Reverse_Shell_Generator Port
+            zh_cn: Reverse_Shell_Generator 端口
+    container_name: reverse
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  author: arch3rpro
+  category: Pentest
+  description:
+    en_us: Hosted Reverse Shell generator with a ton of functionality. -- (Great for CTFs)
+    zh_cn: 在线自动反弹shell命令生成器.
+  developer: 0dayCTF
+  icon: https://raw.githubusercontent.com/arch3rPro/Pentest-Docker/master/Apps/Reverse-shell-generator/Reverse-shell-generator.svg
+  screenshot_link:
+    - https://raw.githubusercontent.com/arch3rPro/Pentest-Docker/master/Apps/Reverse-shell-generator/screenshot-1.png
+    - https://raw.githubusercontent.com/arch3rPro/Pentest-Docker/master/Apps/Reverse-shell-generator/screenshot-2.png
+    - https://raw.githubusercontent.com/arch3rPro/Pentest-Docker/master/Apps/Reverse-shell-generator/screenshot-3.png
+  tagline:
+    en_us:  Hosted Reverse Shell generator
+    zh_cn: 在线自动反弹shell命令生成器
+  thumbnail: https://raw.githubusercontent.com/arch3rPro/Pentest-Docker/master/Apps/Reverse-shell-generator/thumbnail.png
+  title:
+    en_us: Reverse_shell_generator
+  port_map: "18088"

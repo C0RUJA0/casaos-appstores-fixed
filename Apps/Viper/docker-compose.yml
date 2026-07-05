@@ -1,0 +1,49 @@
+name: viper
+services:
+  viper:
+    image: vuldocker/viper:1.6.4
+    deploy:
+      resources:
+        limits:
+          memory: 256M
+    restart: unless-stopped
+    ports:
+      - 60000:60000
+    x-casaos:
+      ports:
+        - container: "60000"
+          description:
+            en_us: Viper Web UI Port 
+            zh_cn: Viper Web 端口
+    container_name: viper
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  author: arch3rPro
+  category: Pentest
+  description:
+    en_us: Viper is Redteam operation platform with webui.
+    zh_cn: Viper(炫彩蛇)是一款图形化内网渗透工具,将内网渗透过程中常用的战术及技术进行模块化及武器化.
+  developer: FunnyWolf
+  icon: https://raw.githubusercontent.com/arch3rPro/Pentest-Docker/master/Apps/Viper/Viper.svg
+  screenshot_link:
+    - https://raw.githubusercontent.com/arch3rPro/Pentest-Docker/master/Apps/Viper/screenshot-01.png
+    - https://raw.githubusercontent.com/arch3rPro/Pentest-Docker/master/Apps/Viper/screenshot-02.png
+    - https://raw.githubusercontent.com/arch3rPro/Pentest-Docker/master/Apps/Viper/screenshot-03.png
+    - https://raw.githubusercontent.com/arch3rPro/Pentest-Docker/master/Apps/Viper/screenshot-04.png
+  tagline:
+    en_us: Redteam operation platform with webui
+    zh_cn: 图形化红队行动辅助平台
+  thumbnail: https://raw.githubusercontent.com/arch3rPro/CasaOS-Pentest/main/Apps/Viper/thumbnail.png
+  index: /
+  scheme: https
+  tips:
+    custom: |-
+      默认账号：root
+      Viper不允许使用默认密码
+      请在终端中执行 `viper -pw yourpassword` 修改密码
+  title:
+    custom: Viper
+  port_map: "60000"
