@@ -16,7 +16,6 @@ services:
       - type: bind
         source: /DATA/AppData/$AppID/data
         target: /var/lib/influxdb2
-      - type: bind
         source: /DATA/AppData/$AppID/config
         target: /etc/influxdb2
     environment:

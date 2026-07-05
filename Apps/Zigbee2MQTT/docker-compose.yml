@@ -17,7 +17,6 @@ services:
       - type: bind
         source: /DATA/AppData/$AppID
         target: /app/data
-      - type: bind
         source: /run/udev
         target: /run/udev
         read_only: true

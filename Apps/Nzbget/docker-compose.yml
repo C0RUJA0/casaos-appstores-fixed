@@ -22,7 +22,6 @@ services:
       - type: bind
         source: /DATA/AppData/nzbget/config
         target: /config
-      - type: bind
         source: /DATA/Downloads
         target: /downloads
     x-casaos:

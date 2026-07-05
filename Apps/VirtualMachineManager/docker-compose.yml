@@ -1,4 +1,4 @@
-name: virt-manager
+name: virtualmachinemanager
 services:
   virt-manager:
     restart: always
@@ -17,10 +17,8 @@ services:
       - type: bind
         source: /var/run/libvirt/libvirt-sock
         target: /var/run/libvirt/libvirt-sock
-      - type: bind
         source: /var/lib/libvirt
         target: /var/lib/libvirt
-      - type: bind
         source: /DATA/Downloads
         target: /DATA/Downloads
     x-casaos:

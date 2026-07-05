@@ -20,10 +20,8 @@ services:
       - type: bind
         source: /DATA/Downloads
         target: /incomplete-downloads
-      - type: bind
         source: /DATA/AppData/sabnzbd/config
         target: /config
-      - type: bind
         source: /DATA/Downloads
         target: /downloads
     x-casaos:

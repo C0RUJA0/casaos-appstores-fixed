@@ -20,7 +20,6 @@ services:
       - type: bind
         source: /DATA/AppData/$AppID/photoprism/storage
         target: /photoprism/storage
-      - type: bind
         source: /DATA/Gallery
         target: /photoprism/originals
     x-casaos:

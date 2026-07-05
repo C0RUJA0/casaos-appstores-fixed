@@ -18,7 +18,6 @@ services:
       - type: bind
         source: /DATA/AppData/$AppID/data
         target: /data
-      - type: bind
         source: /DATA/Media/Music
         target: /music
     environment:

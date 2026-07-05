@@ -1,4 +1,4 @@
-name: emby-nvidia
+name: emby_nvidia
 services:
   emby:
     devices:
@@ -36,10 +36,8 @@ services:
       - type: bind
         source: /DATA/AppData/$AppID/config
         target: /config
-      - type: bind
         source: /DATA/Media/TV Shows
         target: /data/tvshows
-      - type: bind
         source: /DATA/Media/Movies
         target: /data/movies
     x-casaos:

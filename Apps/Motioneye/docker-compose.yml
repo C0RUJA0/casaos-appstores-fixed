@@ -12,7 +12,6 @@ services:
       - type: bind
         source: /DATA/AppData/motioneye/config
         target: /etc/motioneye
-      - type: bind
         source: /DATA/Media/motioneye
         target: /var/lib/motioneye
     x-casaos:

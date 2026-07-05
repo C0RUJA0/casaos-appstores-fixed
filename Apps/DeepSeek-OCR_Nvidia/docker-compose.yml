@@ -1,4 +1,4 @@
-name: deepseek-ocr-nvidia
+name: deepseek-ocr_nvidia
 services:
   deepseek-ocr-backend:
     image: icewhaletech/deepseek-ocr-backend:v2.2.0

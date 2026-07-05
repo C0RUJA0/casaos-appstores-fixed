@@ -16,10 +16,8 @@ services:
       - type: bind
         source: /DATA/AppData/$AppID/data
         target: /usr/share/tessdata
-      - type: bind
         source: /DATA/AppData/$AppID/configs
         target: /configs
-      - type: bind
         source: /DATA/AppData/$AppID/logs
         target: /logs
     environment:

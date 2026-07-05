@@ -16,7 +16,6 @@ services:
       - type: bind
         source: /DATA/AppData/$AppID/data
         target: /beszel_data
-      - type: bind
         source: /DATA/AppData/$AppID/socket
         target: /beszel_socket
     x-casaos:

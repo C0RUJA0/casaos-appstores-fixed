@@ -1,4 +1,4 @@
-name: mineos-node
+name: mineos
 services:
   mineos:
     image: hexparrot/mineos:latest

@@ -16,7 +16,6 @@ services:
       - type: bind
         source: /DATA/AppData/$AppID/models
         target: /build/models
-      - type: bind
         source: /DATA/AppData/$AppID/config
         target: /build/config
     environment:

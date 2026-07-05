@@ -25,7 +25,6 @@ services:
       - type: bind
         source: /DATA/Downloads
         target: /data/downloads
-      - type: bind
         source: /DATA/AppData/$AppID/db
         target: /data/db
     network_mode: bridge

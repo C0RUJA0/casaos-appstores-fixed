@@ -1,4 +1,4 @@
-name: open-webui-ollama
+name: openwebui
 services:
   open-webui-ollama:
     image: ghcr.io/open-webui/open-webui:ollama
@@ -21,7 +21,6 @@ services:
       - type: bind
         source: /DATA/AppData/open-webui-ollama/open-webui
         target: /app/backend/data
-      - type: bind
         source: /DATA/AppData/open-webui-ollama/ollama
         target: /root/.ollama
     privileged: false

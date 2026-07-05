@@ -1,4 +1,4 @@
-name: icewhale-stable-diffusion-webui
+name: stablediffusionwebui
 services:
   icewhale-stable-diffusion-webui:
     image: johnguan/stable-diffusion-webui:latest
@@ -21,10 +21,8 @@ services:
       - type: bind
         source: /DATA/AppData/Stable-Diffusion-WebUI/models
         target: /data/models
-      - type: bind
         source: /DATA/AppData/Stable-Diffusion-WebUI/outputs
         target: /data/outputs
-      - type: bind
         source: /DATA/AppData/Stable-Diffusion-WebUI/config
         target: /data/config
     privileged: false

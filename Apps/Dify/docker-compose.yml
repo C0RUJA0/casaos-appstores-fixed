@@ -8,10 +8,8 @@ services:
       - type: bind
         source: /DATA/AppData/$AppID/data/nginx
         target: /configs/nginx
-      - type: bind
         source: /DATA/AppData/$AppID/data/ssrf_proxy
         target: /configs/ssrf_proxy
-      - type: bind
         source: /DATA/AppData/$AppID/data/sandbox
         target: /configs/sandbox
     networks:

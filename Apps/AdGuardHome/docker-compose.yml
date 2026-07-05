@@ -1,4 +1,4 @@
-name: adguard-home
+name: adguardhome
 services:
   adguard-home:
     image: adguard/adguardhome:v0.107.61
@@ -28,7 +28,6 @@ services:
       - type: bind
         source: /DATA/AppData/$AppID/opt/adguardhome/work
         target: /opt/adguardhome/work
-      - type: bind
         source: /DATA/AppData/$AppID/opt/adguardhome/conf
         target: /opt/adguardhome/conf
     x-casaos:

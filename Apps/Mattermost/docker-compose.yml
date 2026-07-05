@@ -32,16 +32,12 @@ services:
       - type: bind
         source: /DATA/AppData/$AppID/data
         target: /mattermost/data
-      - type: bind
         source: /DATA/AppData/$AppID/logs
         target: /mattermost/logs
-      - type: bind
         source: /DATA/AppData/$AppID/config
         target: /mattermost/config
-      - type: bind
         source: /DATA/AppData/$AppID/plugins
         target: /mattermost/plugins
-      - type: bind
         source: /DATA/AppData/$AppID/client-plugins
         target: /mattermost/client/plugins
     environment:

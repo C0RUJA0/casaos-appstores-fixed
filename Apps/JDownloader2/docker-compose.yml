@@ -77,7 +77,6 @@ services:
       - type: bind
         source: /DATA/AppData/jdownloader2/config
         target: /config
-      - type: bind
         source: /DATA/Downloads
         target: /output
     container_name: jdownloader2

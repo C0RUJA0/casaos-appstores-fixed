@@ -20,7 +20,6 @@ services:
       - type: bind
         source: /DATA/AppData/$AppID/db
         target: /db
-      - type: bind
         source: /DATA
         target: /srv
     x-casaos:

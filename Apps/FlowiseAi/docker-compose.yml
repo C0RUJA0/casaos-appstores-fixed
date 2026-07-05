@@ -1,4 +1,4 @@
-name: flowise
+name: flowiseai
 services:
   flowise:
     image: flowiseai/flowise:3.0.11

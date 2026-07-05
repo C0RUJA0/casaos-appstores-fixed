@@ -1,4 +1,4 @@
-name: twingate-connector
+name: twingate
 services:
   twingate-connector:
     image: twingate/connector:1

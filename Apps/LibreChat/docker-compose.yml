@@ -76,10 +76,8 @@ services:
       - type: bind
         source: /DATA/AppData/$AppID/images
         target: /app/client/public/images
-      - type: bind
         source: /DATA/AppData/$AppID/uploads
         target: /app/uploads
-      - type: bind
         source: /DATA/AppData/$AppID/logs
         target: /app/api/logs
     networks:

@@ -1,4 +1,4 @@
-name: llama-factory-nvidia
+name: llama-factory_nvidia
 services:
   llama-factory-nvidia:
     image: hiyouga/llamafactory:0.9.4

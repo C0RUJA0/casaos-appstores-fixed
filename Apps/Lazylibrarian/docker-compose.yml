@@ -21,10 +21,8 @@ services:
       - type: bind
         source: /DATA/Downloads
         target: /downloads
-      - type: bind
         source: /DATA/Media/Books
         target: /books
-      - type: bind
         source: /DATA/AppData/lazylibrarian/config
         target: /config
     x-casaos:

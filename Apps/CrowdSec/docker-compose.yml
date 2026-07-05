@@ -19,10 +19,8 @@ services:
       - type: bind
         source: /DATA/AppData/$AppID/db
         target: /var/lib/crowdsec/data
-      - type: bind
         source: /DATA/AppData/$AppID/config
         target: /etc/crowdsec
-      - type: bind
         source: /var/log
         target: /var/log/host
         read_only: true

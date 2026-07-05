@@ -1,4 +1,4 @@
-name: label-studio
+name: labelstudio
 services:
   label-studio:
     environment:

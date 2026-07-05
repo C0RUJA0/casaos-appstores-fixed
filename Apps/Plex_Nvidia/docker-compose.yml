@@ -1,4 +1,4 @@
-name: plex-nvidia
+name: plex_nvidia
 services:
   plex:
     devices:
@@ -26,7 +26,6 @@ services:
       - type: bind
         source: /DATA/AppData/$AppID/config
         target: /config
-      - type: bind
         source: /DATA/Media
         target: /Media
     x-casaos:

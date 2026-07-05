@@ -26,18 +26,14 @@ services:
       - type: bind
         source: /DATA/AppData/$AppID/config
         target: /config
-      - type: bind
         source: /DATA/Media/Music
         target: /music
         read_only: true
-      - type: bind
         source: /DATA/AppData/$AppID/playlists
         target: /playlist
-      - type: bind
         source: /etc/localtime
         target: /etc/localtime
         read_only: true
-      - type: bind
         source: /etc/timezone
         target: /etc/timezone
         read_only: true

@@ -47,7 +47,6 @@ services:
       - type: bind
         source: /DATA/AppData/$AppID/media
         target: /media
-      - type: bind
         source: /DATA/AppData/$AppID/templates
         target: /templates
     ports:
@@ -88,10 +87,8 @@ services:
       - type: bind
         source: /DATA/AppData/$AppID/media
         target: /media
-      - type: bind
         source: /DATA/AppData/$AppID/templates
         target: /templates
-      - type: bind
         source: /DATA/AppData/$AppID/certs
         target: /certs
     depends_on:

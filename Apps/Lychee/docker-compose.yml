@@ -16,13 +16,10 @@ services:
       - type: bind
         source: /DATA/AppData/$AppID/conf
         target: /conf
-      - type: bind
         source: /DATA/AppData/$AppID/uploads
         target: /uploads
-      - type: bind
         source: /DATA/AppData/$AppID/sym
         target: /sym
-      - type: bind
         source: /DATA/AppData/$AppID/logs
         target: /logs
     environment:

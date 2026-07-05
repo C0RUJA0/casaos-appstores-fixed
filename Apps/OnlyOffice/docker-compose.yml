@@ -16,13 +16,10 @@ services:
       - type: bind
         source: /DATA/AppData/$AppID/data
         target: /var/www/onlyoffice/Data
-      - type: bind
         source: /DATA/AppData/$AppID/log
         target: /var/log/onlyoffice
-      - type: bind
         source: /DATA/AppData/$AppID/lib
         target: /var/lib/onlyoffice
-      - type: bind
         source: /DATA/AppData/$AppID/db
         target: /var/lib/postgresql
     environment:

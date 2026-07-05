@@ -15,7 +15,6 @@ services:
       - type: bind
         source: /DATA/AppData/freshrss/data
         target: /var/www/FreshRSS/data
-      - type: bind
         source: /DATA/AppData/freshrss/extensions
         target: /var/www/FreshRSS/extensions
     x-casaos:

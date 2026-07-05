@@ -1,4 +1,4 @@
-name: chatbot-ui
+name: chatbotui
 services:
   chatbot-ui:
     environment:

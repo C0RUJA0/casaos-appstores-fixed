@@ -16,7 +16,6 @@ services:
       - type: bind
         source: /DATA/AppData/$AppID/files
         target: /app/vikunja/files
-      - type: bind
         source: /DATA/AppData/$AppID/config
         target: /etc/vikunja
     environment:

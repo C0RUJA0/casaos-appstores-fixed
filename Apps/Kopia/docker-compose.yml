@@ -16,13 +16,10 @@ services:
       - type: bind
         source: /DATA/AppData/$AppID/config
         target: /app/config
-      - type: bind
         source: /DATA/AppData/$AppID/cache
         target: /app/cache
-      - type: bind
         source: /DATA/AppData/$AppID/logs
         target: /app/logs
-      - type: bind
         source: /DATA
         target: /data
         read_only: true

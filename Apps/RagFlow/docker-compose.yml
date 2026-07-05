@@ -47,7 +47,6 @@ services:
         target: /ragflow/logs
         bind:
           create_host_path: true
-      - type: bind
         source: /DATA/AppData/$AppID/history_data_agent
         target: /ragflow/history_data_agent
         bind:

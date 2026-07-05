@@ -1,106 +1,76 @@
 [
   {
-    "id": "utilities",
     "name": "Utilities",
-    "icon": "build",
     "description": "System utilities and tools",
     "font": "build"
   },
   {
-    "id": "media",
     "name": "Media",
-    "icon": "movie",
     "description": "Media servers and players",
     "font": "movie"
   },
   {
-    "id": "network",
     "name": "Network",
-    "icon": "lan",
     "description": "Network tools and services",
     "font": "lan"
   },
   {
-    "id": "development",
     "name": "Development",
-    "icon": "code",
     "description": "Development tools and IDEs",
     "font": "code"
   },
   {
-    "id": "home-automation",
     "name": "Home Automation",
-    "icon": "home",
     "description": "Smart home and IoT",
     "font": "home"
   },
   {
-    "id": "productivity",
     "name": "Productivity",
-    "icon": "work",
     "description": "Productivity and office tools",
     "font": "work"
   },
   {
-    "id": "storage",
     "name": "Storage",
-    "icon": "storage",
     "description": "File storage and sync",
     "font": "storage"
   },
   {
-    "id": "security",
     "name": "Security",
-    "icon": "security",
     "description": "Security and privacy tools",
     "font": "security"
   },
   {
-    "id": "ai",
     "name": "AI & Machine Learning",
-    "icon": "smart_toy",
     "description": "AI assistants and ML tools",
     "font": "smart_toy"
   },
   {
-    "id": "gaming",
     "name": "Gaming",
-    "icon": "sports_esports",
     "description": "Game servers and tools",
     "font": "sports_esports"
   },
   {
-    "id": "communication",
     "name": "Communication",
-    "icon": "chat",
     "description": "Chat and communication",
     "font": "chat"
   },
   {
-    "id": "finance",
     "name": "Finance",
-    "icon": "account_balance",
     "description": "Finance and crypto",
     "font": "account_balance"
   },
   {
-    "id": "monitoring",
     "name": "Monitoring",
-    "icon": "monitoring",
     "description": "System monitoring and analytics",
     "font": "monitoring"
   },
   {
-    "id": "backup",
     "name": "Backup",
-    "icon": "backup",
     "description": "Backup and recovery",
     "font": "backup"
   },
   {
-    "id": "other",
     "name": "Other",
-    "icon": "apps",
     "description": "Other applications",
     "font": "apps"
   }

@@ -22,7 +22,6 @@ services:
       - type: bind
         source: /DATA/AppData/$AppID/data
         target: /data
-      - type: bind
         source: /DATA/AppData/$AppID/etc/letsencrypt
         target: /etc/letsencrypt
     x-casaos:

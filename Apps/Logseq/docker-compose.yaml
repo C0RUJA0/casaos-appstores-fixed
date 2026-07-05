@@ -23,7 +23,6 @@ services:
       - type: bind
         source: /DATA/AppData/logseq/config
         target: /config
-      - type: bind
         source: /DATA/Documents/Notes
         target: /notes
     x-casaos:

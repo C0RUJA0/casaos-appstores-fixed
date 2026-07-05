@@ -15,10 +15,8 @@ services:
         source: /lib/modules
         target: /lib/modules
         read_only: true
-      - type: bind
         source: /etc/resolv.conf
         target: /etc/resolv.conf
-      - type: bind
         source: /DATA/AppData/$AppID
         target: /etc/v2raya
     x-casaos:

@@ -13,7 +13,6 @@ services:
       - type: bind
         source: /DATA/AppData/$AppID
         target: /var/lib/tailscale
-      - type: bind
         source: /dev/net/tun
         target: /dev/net/tun
     environment:

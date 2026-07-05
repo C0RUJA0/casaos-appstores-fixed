@@ -16,7 +16,6 @@ services:
       - type: bind
         source: /DATA/AppData/$AppID/www
         target: /var/www/html
-      - type: bind
         source: /DATA/AppData/$AppID/db
         target: /var/roundcube/db
     environment:

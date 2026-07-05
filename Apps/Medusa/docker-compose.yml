@@ -18,10 +18,8 @@ services:
       - type: bind
         source: /DATA/AppData/$AppID
         target: /config
-      - type: bind
         source: /DATA/AppData/$AppID/Downloads/Television
         target: /downloads
-      - type: bind
         source: /DATA/AppData/$AppID/Media/Television
         target: /tv
     network_mode: bridge

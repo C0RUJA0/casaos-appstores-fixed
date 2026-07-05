@@ -13,13 +13,10 @@ services:
       - type: bind
         source: /DATA
         target: /storage
-      - type: bind
         source: /DATA/AppData/$AppID/watch
         target: /watch
-      - type: bind
         source: /DATA/Media
         target: /output
-      - type: bind
         source: /DATA/AppData/$AppID/config
         target: /config
     container_name: handbrake

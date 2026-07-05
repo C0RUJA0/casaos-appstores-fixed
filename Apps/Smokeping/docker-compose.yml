@@ -20,7 +20,6 @@ services:
       - type: bind
         source: /DATA/AppData/smokeping/config
         target: /config
-      - type: bind
         source: /DATA/AppData/smokeping/data
         target: /data
     x-casaos:

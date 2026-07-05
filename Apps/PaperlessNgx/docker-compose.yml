@@ -23,13 +23,10 @@ services:
       - type: bind
         source: /DATA/AppData/$AppID/data
         target: /usr/src/paperless/data
-      - type: bind
         source: /DATA/AppData/$AppID/media
         target: /usr/src/paperless/media
-      - type: bind
         source: /DATA/AppData/$AppID/export
         target: /usr/src/paperless/export
-      - type: bind
         source: /DATA/AppData/$AppID/consume
         target: /usr/src/paperless/consume
     environment:

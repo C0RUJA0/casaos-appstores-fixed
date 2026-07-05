@@ -17,7 +17,6 @@ services:
       - type: bind
         source: /DATA/AppData/$AppID/project
         target: /project
-      - type: bind
         source: /DATA/AppData/$AppID/cache
         target: /cache
     command:

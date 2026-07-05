@@ -19,10 +19,8 @@ services:
       - type: bind
         source: /DATA/AppData/$AppID/config
         target: /mosquitto/config
-      - type: bind
         source: /DATA/AppData/$AppID/data
         target: /mosquitto/data
-      - type: bind
         source: /DATA/AppData/$AppID/log
         target: /mosquitto/log
     x-casaos:

@@ -29,10 +29,8 @@ services:
       - type: bind
         source: /DATA/AppData/$AppID/config
         target: /config
-      - type: bind
         source: /DATA/Downloads
         target: /downloads
-      - type: bind
         source: /DATA/Downloads/watch
         target: /watch
     x-casaos:

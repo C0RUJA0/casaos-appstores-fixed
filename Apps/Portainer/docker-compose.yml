@@ -22,7 +22,6 @@ services:
       - type: bind
         source: /DATA/AppData/$AppID
         target: /data
-      - type: bind
         source: /var/run/docker.sock
         target: /var/run/docker.sock
     x-casaos:

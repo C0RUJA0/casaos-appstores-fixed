@@ -25,10 +25,8 @@ services:
       - type: bind
         source: /DATA/AppData/$AppID/data
         target: /var/lib/sftpgo
-      - type: bind
         source: /DATA/AppData/$AppID/config
         target: /etc/sftpgo
-      - type: bind
         source: /DATA
         target: /shared
     environment:

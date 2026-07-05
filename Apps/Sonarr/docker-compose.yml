@@ -20,10 +20,8 @@ services:
       - type: bind
         source: /DATA/AppData/$AppID/config
         target: /config
-      - type: bind
         source: /DATA/Media/TV Shows
         target: /tv
-      - type: bind
         source: /DATA/Downloads
         target: /downloads
     x-casaos:

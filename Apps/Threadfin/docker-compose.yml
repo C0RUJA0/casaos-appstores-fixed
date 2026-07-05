@@ -38,7 +38,6 @@ services:
       - type: bind
         source: /DATA/AppData/threadfin/config
         target: /home/threadfin/conf/data
-      - type: bind
         source: /DATA/AppData/threadfin/backup
         target: /home/threadfin/conf/backup
     container_name: threadfin

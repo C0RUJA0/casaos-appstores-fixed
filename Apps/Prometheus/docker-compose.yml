@@ -16,7 +16,6 @@ services:
       - type: bind
         source: /DATA/AppData/$AppID/config
         target: /etc/prometheus
-      - type: bind
         source: /DATA/AppData/$AppID/data
         target: /prometheus
     command:

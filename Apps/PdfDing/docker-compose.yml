@@ -16,7 +16,6 @@ services:
       - type: bind
         source: /DATA/AppData/$AppID/db
         target: /home/nonroot/pdfding/db
-      - type: bind
         source: /DATA/AppData/$AppID/media
         target: /home/nonroot/pdfding/media
     environment:

@@ -17,7 +17,6 @@ services:
       - type: bind
         source: /DATA/AppData/$AppID/data
         target: /opt/app/backend/data
-      - type: bind
         source: /DATA/AppData/$AppID/images
         target: /opt/app/frontend/public/img
     x-casaos:

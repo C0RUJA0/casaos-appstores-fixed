@@ -21,7 +21,6 @@ services:
       - type: bind
         source: /DATA/AppData/$AppID/config
         target: /config
-      - type: bind
         source: /DATA
         target: /DATA
     x-casaos:

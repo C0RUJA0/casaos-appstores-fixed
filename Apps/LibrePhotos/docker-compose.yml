@@ -31,13 +31,10 @@ services:
       - type: bind
         source: /DATA/Photos/librephotos
         target: /data
-      - type: bind
         source: /DATA/AppData/$AppID/protected_media
         target: /protected_media
-      - type: bind
         source: /DATA/AppData/$AppID/logs
         target: /logs
-      - type: bind
         source: /DATA/AppData/$AppID/cache
         target: /root/.cache
     environment:

@@ -27,7 +27,6 @@ services:
       - type: bind
         source: /DATA/AppData/$AppID/config
         target: /config
-      - type: bind
         source: /DATA/AppData/$AppID/storage
         target: /media/frigate
       - type: tmpfs
