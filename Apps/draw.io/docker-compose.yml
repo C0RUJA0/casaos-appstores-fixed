@@ -1,4 +1,4 @@
-name: draw.io
+name: draw-io
 services:
   app:
     image: jgraph/drawio:21.7.5
@@ -16,10 +16,8 @@ services:
       - type: bind
         source: /DATA/AppData/$AppID/log/letsencrypt
         target: /var/log/letsencrypt
-      - type: bind
         source: /DATA/AppData/$AppID/letsencrypt
         target: /etc/letsencrypt
-      - type: bind
         source: /DATA/AppData/$AppID/lib/letsencrypt
         target: /var/lib/letsencrypt
 x-casaos:

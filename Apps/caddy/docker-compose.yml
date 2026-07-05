@@ -17,10 +17,8 @@ services:
       - type: bind
         source: /DATA/AppData/caddy/data
         target: /data
-      - type: bind
         source: /DATA/AppData/caddy/config
         target: /config
-      - type: bind
         source: /DATA/AppData/caddy/caddyfile
         target: /etc/caddy/caddyfile
 x-casaos:

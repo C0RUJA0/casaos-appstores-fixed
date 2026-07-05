@@ -8,7 +8,6 @@ services:
       - type: bind
         source: /DATA/AppData/matter-server/data
         target: /data
-      - type: bind
         source: /run/dbus
         target: /run/dbus
         read_only: true

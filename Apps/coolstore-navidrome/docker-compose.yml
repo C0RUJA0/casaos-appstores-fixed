@@ -14,7 +14,6 @@ services:
       - type: bind
         source: /DATA/AppData/coolstore-navidrome/data
         target: /data
-      - type: bind
         source: /DATA/Media/Music
         target: /music
         read_only: true

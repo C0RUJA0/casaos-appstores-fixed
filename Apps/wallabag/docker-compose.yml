@@ -56,7 +56,6 @@ services:
       - type: bind
         source: /DATA/AppData/Wallabag/data
         target: /var/www/wallabag/data
-      - type: bind
         source: /DATA/AppData/Wallabag/images
         target: /var/www/wallabag/web/assets/images
   db:

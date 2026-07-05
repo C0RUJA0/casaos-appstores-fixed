@@ -22,7 +22,6 @@ services:
       - type: bind
         source: /DATA/AppData/$AppID/manga
         target: /manga
-      - type: bind
         source: /DATA/AppData/$AppID/config
         target: /kavita/config
 x-casaos:

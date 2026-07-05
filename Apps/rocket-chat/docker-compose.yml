@@ -22,7 +22,6 @@ services:
       - type: bind
         source: /DATA/AppData/rocket-chat/mongo/data/configdb
         target: /data/configdb
-      - type: bind
         source: /DATA/AppData/rocket-chat/mongo/data/db
         target: /data/db
 x-casaos:

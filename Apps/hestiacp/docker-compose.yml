@@ -16,10 +16,8 @@ services:
       - type: bind
         source: /DATA/AppData/$AppID/config
         target: /hestia
-      - type: bind
         source: /DATA/AppData/$AppID/home
         target: /home
-      - type: bind
         source: /DATA/AppData/$AppID/backup
         target: /backup
     cap_add:

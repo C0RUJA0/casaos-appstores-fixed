@@ -26,7 +26,6 @@ services:
       - type: bind
         source: /DATA/AppData/$AppID/config
         target: /home/pi/pialert/config
-      - type: bind
         source: /DATA/AppData/$AppID/db
         target: /home/pi/pialert/db
 x-casaos:
