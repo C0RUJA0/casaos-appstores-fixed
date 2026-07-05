@@ -1,4 +1,4 @@
-name: adguard-sync-tmc
+name: adguard-sync
 services:
   app:
     container_name: adguard

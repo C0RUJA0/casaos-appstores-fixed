@@ -1,4 +1,4 @@
-name: red-discordbot-tmc
+name: red-discordbot
 services:
   app:
     container_name: red-discordbot

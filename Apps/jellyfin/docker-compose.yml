@@ -1,4 +1,4 @@
-name: jellyfin-tmc
+name: jellyfin
 services:
   app:
     container_name: jellyfin
@@ -15,10 +15,8 @@ services:
       - type: bind
         source: /DATA/AppData/TMC-Store/$AppID/config
         target: /config
-      - type: bind
         source: /DATA/AppData/TMC-Store/$AppID/cache
         target: /cache
-      - type: bind
         source: /DATA/Media
         target: /media
     restart: unless-stopped

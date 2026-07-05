@@ -1,4 +1,4 @@
-name: watchtower-tmc
+name: watchtower
 services:
   app:
     container_name: watchtower

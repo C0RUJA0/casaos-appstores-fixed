@@ -1,4 +1,4 @@
-name: isponsorblocktv-tmc
+name: isponsorblocktv
 services:
   app:
     container_name: isponsorblocktv

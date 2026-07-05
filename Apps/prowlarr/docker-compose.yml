@@ -1,4 +1,4 @@
-name: prowlarr-tmc
+name: prowlarr
 services:
   app:
     container_name: prowlarr

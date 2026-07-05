@@ -1,4 +1,4 @@
-name: headphones-tmc
+name: headphones
 services:
   app:
     container_name: headphones
@@ -11,7 +11,6 @@ services:
       - type: bind
         source: /DATA/AppData/TMC-Store/$AppID/config
         target: /config
-      - type: bind
         source: /DATA/Media
         target: /media
     restart: unless-stopped

@@ -1,4 +1,4 @@
-name: speedtest-tracker-tmc
+name: speedtest-tracker
 services:
   db:
     image: mariadb:10

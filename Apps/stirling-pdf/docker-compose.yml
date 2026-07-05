@@ -1,4 +1,4 @@
-name: stirling-pdf-tmc
+name: stirling-pdf
 services:
   app:
     container_name: stirling-pdf
@@ -13,7 +13,6 @@ services:
       - type: bind
         source: /DATA/AppData/TMC-Store/$AppID/training-data
         target: /usr/share/tesseract-ocr/4.00/tessdata
-      - type: bind
         source: /DATA/AppData/TMC-Store/$AppID/configs
         target: /configs
     restart: unless-stopped

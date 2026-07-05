@@ -1,4 +1,4 @@
-name: adguard-home-tmc
+name: adguard-home
 services:
   app:
     container_name: adguard
@@ -15,7 +15,6 @@ services:
       - type: bind
         source: /DATA/AppData/TMC-Store/$AppID/work
         target: /opt/adguardhome/work
-      - type: bind
         source: /DATA/AppData/TMC-Store/$AppID/conf
         target: /opt/adguardhome/conf
     restart: unless-stopped

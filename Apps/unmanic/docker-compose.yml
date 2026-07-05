@@ -1,4 +1,4 @@
-name: unmanic-tmc
+name: unmanic
 services:  
   app:
     container_name: unmanic
@@ -16,10 +16,8 @@ services:
       - type: bind
         source: /DATA/AppData/TMC-Store/$AppID/config
         target: /config
-      - type: bind
         source: /DATA/AppData/TMC-Store/$AppID/library
         target: /library
-      - type: bind
         source: /DATA/AppData/TMC-Store/$AppID/tmp/unmanic
         target: /tmp/unmanic
     networks:

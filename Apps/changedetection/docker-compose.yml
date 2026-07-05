@@ -1,4 +1,4 @@
-name: changedetection-tmc
+name: changedetection
 
 services:
   browserless-chrome:

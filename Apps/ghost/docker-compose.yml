@@ -1,4 +1,4 @@
-name: ghost-tmc
+name: ghost
 services:
   ghost-db:
     container_name: ghost-db

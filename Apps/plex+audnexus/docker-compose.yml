@@ -1,4 +1,4 @@
-name: plex-absolutehama-tmc
+name: plex-audnexus
 services:
   app:
     container_name: plex
@@ -14,10 +14,8 @@ services:
       - type: bind
         source: /DATA/AppData/TMC-Store/$AppID/config
         target: /config
-      - type: bind
         source: /DATA/AppData/TMC-Store/$AppID/transcode
         target: /transcode
-      - type: bind
         source: /DATA/Media
         target: /media
     restart: unless-stopped
