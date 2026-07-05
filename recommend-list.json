@@ -1,0 +1,12 @@
+[
+  "portainer",
+  "heimdall",
+  "filebrowser",
+  "code-server",
+  "nextcloud",
+  "jellyfin",
+  "plex",
+  "homeassistant",
+  "pi-hole",
+  "nginx-proxy-manager"
+]
